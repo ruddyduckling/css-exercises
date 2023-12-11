@@ -25,6 +25,9 @@ img {
   background: #eee;
 }
 
+body {
+  text-align: center;
+}
 .info-section {
   display: flex;
   flex-direction: column;
@@ -33,23 +36,11 @@ img {
   padding: 64px;
 }
 
-.plants {
+.container {
   display: flex;
   gap: 52px;
-
 }
 
-.barberry,
-.chili,
-.pepper,
-.saffron {
-  display: flex;
-  flex-direction: column;
-  max-width: 200px;
-  align-items: center;
-  
-}
-
-.text {
-  text-align: center;
+.info {
+  flex: 1 1 200px;
 }

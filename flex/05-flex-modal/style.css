@@ -68,9 +68,10 @@ button.cancel {
   color: royalblue;
 }
 /* Solution Below */
-.middle {
-  display: flex column;
-}
+/* .middle {                          Don't need this because the 
+   display: flex column;       contents of the container will already be 
+                             block items so be in correct position.} */   
+
 
 .modal {
   display: flex;
@@ -81,7 +82,12 @@ button.cancel {
 .header {
   display: flex;
   font-weight: bold;
+  /* Align header and 'x' */
+  align-items: center;
   justify-content: space-between;
+  margin-bottom: 8px;
+  /* Add font-size */
+  font-size: 18px;
  }
 
 .icon {
@@ -90,5 +96,5 @@ button.cancel {
 
 .text {
   font-size: 0.9rem;
-  padding: 0 16px 16px 0;
+ 
 }

@@ -9,7 +9,8 @@ body {
 
 .header {
   display: flex;
-  padding: 16px;
+  align-items: center;
+  padding: 8px 16px;
   background: darkmagenta;
   color: white;
   font-size: 32px;
@@ -38,17 +39,18 @@ body {
 }
 
 .sidebar {
-  min-width:300px;
+  width:300px;
+  flex-shrink: 0;
   background: royalblue;
   box-sizing: border-box;
-  padding: 8px;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 350px;
+  width: 300px;
   padding: 1rem;
 }
 
